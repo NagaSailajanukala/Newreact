@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+}
+main{
+    /* margin:20px; */
+    margin-right:20px;
+    margin-left:30px;
+    margin-top: 40px;
+    margin-bottom:50px;
+}
+h1{
+    text-align:center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:aquamarine;
+    padding : 0px;
+    margin:0px;
+    overflow:hidden;
+    width:100%;
+    text-align:center;
+ }
+ .navbar a{
+    color:rgb(79, 37, 171);
+    padding:10px;
+    display:block;
+    /* margin:10px; */
+    text-decoration: none;
+    /* text-align:center; */
+    float:left;
+ }
+ .navbar a:hover{
+    background-color:pink;
+ }
+ .navbar li{
+    /* float:left; */
+    display: inline-block;
+    padding:20px;
+}

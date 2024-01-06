@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+display:flex;
+height: 100;
+justify-content: center;
+align-items: center;
+background-color: cadetblue;
+background-size: cover;
+}
+ .container{
+    width:100%;
+    max-width: 650px;
+    background:whitesmoke;
+    padding:30px;
+    margin:0 30px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+ }
+
+ /* .form-title{
+    font-size: 30px;
+    font-weight:600;
+    text_align: center;
+    padding-bottom:30px;
+    color: black;
+ } */
+
+ .main-user-info{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:10px 0;
+ }
+
+ .user-input-box{
+    display:flex;
+    flex-wrap:wrap;
+    width:50%;
+    padding-bottom:15px;
+ }
+
+ .user-input-box label{
+    
+    width:95%;
+    color:black;
+    font-size:20px;
+    font-weight:400;
+    margin:5px 0;
+ }
+      
+
+ .user-input-box input,
+ .user-input-box select{
+    height:40px;
+    width:85%;
+    border-radius:1px;
+    outline:none;
+    border: 1px solid grey;
+    padding:0 10px;
+ }
+ .user-input-box select{
+    font-size: medium;
+ }
+
+.active-title{
+    color:black;
+    font-size:20px;
+    /* font-weight:400; */
+}
+
+.active-catageory{
+    height:0px;
+    width:85%;
+    color:black;
+    margin:15px 0;
+    padding:0 0;
+}
+
+.active-catageory label{
+    padding:0 20px 0 5px;
+}
+#street input{
+width:500px;
+height:40px;
+}
+.spanforaddress{
+    display:block;
+    flex: 1 1 100%;
+}
+
+.active-catageory label, .active-catageory input, .form-submit-btn input{
+    cursor:pointer;
+}
+.form-submit-btn input{
+    height: 50px;
+    width:30%;
+    color:black;
+    display:block;
+    width:50%;
+    margin-right:0px;
+    font-size:20px;
+    padding: 1px 6px;
+}
+
+.Address{
+    height:40px;
+    width:85%;
+    border-radius:1px;
+    outline:none;
+    border: 1px solid grey;
+    padding:0 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

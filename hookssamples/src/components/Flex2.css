@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:column; 
+    height: 100;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+    background-size: cover;
+    /* background-color:grey; */
+    }
+
+   
+.container{
+    /* background-color:grey; */
+    /* display:flex;
+    flex-wrap:wrap;
+    flex-direction:column; 
+    justify-content:space-between; */
+    width:100%;
+    float:left; 
+    max-width: 724px;
+    padding: 56px;
+    /* margin: 2vh 500px 0 500px; */
+    /* border-radius: 10px; */
+    margin: 12vh 424px 56px -317px;
+    border-radius: 20px 20px 2px 2px;
+    border:1px solid;
+    box-shadow: inset -2px 2px 2px white;
+}
+label{
+    text-align:left;
+    display:block;
+}
+form{
+    display:block;
+}
+#item{
+    margin:9px;
+    padding: 6px;
+    /* border:1px solid; */
+    align-items:center;
+    font-size:15px;    
+    background-color:white;
+    color:black;   
+    flex-direction:row;
+    display:flex;
+    justify-content:left;                                  
+}
+.inner-item{
+    margin:5px;
+    /* border:1px solid; */
+    width:50%;
+    padding:5px;   
+}
+
+/* input [type="submit"]:button{
+    justify-content:center;
+} */
+input[type="submit"]
+{
+    width: 10vw;
+    margin-left: 7vw;
+    height: 2vw;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+input[type="submit"]:hover{
+background-color:brown;
+cursor:pointer;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+input[type="text"]:focus {
+    border: 2px solid #3498db;
+}
+#street-Address, #streetAddress-line2{
+    width:-webkit-fill-available;
+    /* width: 75px */
+}
+input [type="radio"]{
+    width: 100%;
+    display: inline-block;
+}
+input[type="text"] ,
+input[type="password"],
+input[type="tel"],
+input[type="email"],select {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    height:2vw;
+    width:10vw;
+    padding:6px;
+    margin:3px;
+    display:block;
+}
+
+input[type="date"]{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    height:2vw;
+    width:10vw;
+    padding:3px;
+    margin:3px;
+    display:block;
+}
+
+form{
+    display:block;
+    margin-top:auto;
+}
+
+
+
+/* .form-title{
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+    padding-bottom:30px;
+    color: black;
+    display:block;
+    margin:50px;
+ } */

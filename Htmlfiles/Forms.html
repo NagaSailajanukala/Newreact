@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2 style="text-align:center;">Application Form</h2>
+    <div style="margin:20px;">
+    <form target="_blank" method="post" >
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="enter fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" value=" "><br><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd"><br>
+
+        <p>Currently you are residing at:</p>
+        <input type="radio" id="hyderabad" name="city" value="Hyderabad">
+        <label for="hyderabad">Hyderabad</label><br>
+        <input type="radio" id="chennai" name="city" value="Chennai">
+        <label for="chennai">chennai</label><br>
+        <input type="radio" id="bangelore" name="city" value="Chennai">
+        <label for="bangelore">Bangelore</label><br>
+
+        <label for="color">Favorite Color:</label> 
+        <select id="color" name="color" size="2" multiple>
+            <option value="Green">Green</option>
+            <option value="Red">Red</option>
+            <option value="Blue" selected>Blue</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Violet">Violet</option><br><br>
+       </select><br><br>
+
+       <label for="address">Address:</label>
+       <textarea id="address" style="width:150px ;height:150px;" placeholder="add address here"></textarea><br><br>
+       <button type="button" onclick="alert('Hello')">Click Me</button><br><br>
+       
+       <label for="food">choose Fav Food</label>
+       <input list="foods" name="food" id="food">
+       <datalist id="foods">
+        <option value="Sweets"></option>
+        <option value="Snacks"></option>
+        <option value="Rotis"></option>
+        <option value="Biryani"></option>
+        <option value="Pizza"></option>
+        <option value="Ice-Cream"></option>
+       </datalist><br><br>
+
+       <input type="reset" value="reset"><br><br>
+       Which Vehicles do you have:<br>
+       <label for="bike">Bike</label>
+       <input type="checkbox"  id="Bike" name="vehicle1"><br>
+       <label for="car">Car</label>
+       <input type="checkbox"  id="car" name="vehicle2"><br>
+       <label for="SUVcar">SUVcar</label>
+       <input type="checkbox"  id="SUVcar" name="vehicle3"><br>
+       
+       <label for="favcolor">Choose the color</label>
+       <input type="color"  id="favcolor" name="favcolor"><br>
+
+        <input type="submit" value="Submit">
+
+
+    </form>
+    </div>
+</body>
+</html>

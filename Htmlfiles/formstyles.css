@@ -1,0 +1,11 @@
+.full-width{
+    width:100%;
+    /* display:block; */
+    float:left;
+}
+
+.half-width{
+    width:45%;
+    float:left;
+    margin-right: "10px";
+}
